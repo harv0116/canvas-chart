@@ -1,3 +1,30 @@
 @charset "UTF-8";
 /* CSS Document */
+* {
+	font-family: 'Roboto', sans-serif;
+}
 
+body {
+	background:rgba(216,245,249,1.00);
+	color: rgba(12,85,104,1.00);	
+}
+
+.wrapper {
+	max-width: 800px;
+}
+
+#box1, #box2 {
+	max-width: 400px;
+	float: left;
+}
+#parrot {
+	float: left;
+}
+
+a {
+	margin-left: 20px;
+}
+
+#footer {
+	clear: left;
+}
