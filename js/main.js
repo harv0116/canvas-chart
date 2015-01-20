@@ -57,10 +57,6 @@ function badStuff(  jqxhr, status, err){
   	console.log( jqxhr.responseText );
 }
 
-function fred(data){
-  console.log("fred");
-}
-
 function findmax(array) {
 	var max = 0;
 	var a = array.length;
