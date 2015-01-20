@@ -23,10 +23,9 @@ document.addEventListener("DOMContentLoaded", function(){
 function ajax(){
 	$.ajax({
 		url: "data/cheese.json",
-		type: "post",
+		type: "get",
 		dataType: "json",
-		jsonp: false,
-      	jsonpCallback: fred
+		jsonp: false
 		}).done( gotData ).fail( badStuff );
 };
 
