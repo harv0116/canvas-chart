@@ -93,9 +93,9 @@ function pieChart(){
 	//smallest is 90%.  the others are 100%.  minSales and maxSales are
     //the variable names to test against the array.		
 	if (percentSales[i] === maxSales) { 
-		radius = 110; 
+		radius = 90; 
 	} else if (percentSales[i] === minSales) {
-		radius = 90;
+		radius = 110;
 	} else {
 		radius = 100; 
 	}
